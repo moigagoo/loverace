@@ -3,7 +3,6 @@
 *.sublime-workspace
 
 *.exe
-*.html
 *.js
 *.idx
 htmldocs
