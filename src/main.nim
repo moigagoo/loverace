@@ -48,6 +48,13 @@ proc gameUpdate(dt: float32) =
   if btnpr(pcRight, repeat = 5):
     if carX < screenWidth - carWidth:
       carX += carWidth
+  if btnpr(pcUp, repeat = 5):
+    if carY > 0:
+      carY -= carHeight
+  if btnpr(pcDown, repeat = 5):
+    if carY < screenHeight - carHeight:
+      carY += carHeight
+
 
   if obstPause > 0.0:
     obstPause -= dt
