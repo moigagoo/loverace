@@ -109,5 +109,5 @@ when isMainModule:
   randomize()
 
   nico.init("moigagoo", "Love Race")
-  nico.createWindow("myApp", gameWidth * carWidth, gameHeight * carHeight, scale = 4, fullscreen = false)
+  nico.createWindow("Love Race", gameWidth * carWidth, gameHeight * carHeight, scale = 4, fullscreen = false)
   nico.run(gameInit, gameUpdate, gameDraw)
